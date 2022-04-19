@@ -8,16 +8,16 @@
 #include <ArduinoJson.h>
 
 // Set your access point network credentials
-const char* ssid = "Orange_Swiatlowod_4E80";   // your network SSID (name) 
-const char* password = "S7FWN2ze7ArpbdgEio";   // your network password
+const char* ssid = "***********";   // your network SSID (name) 
+const char* password = "***********";   // your network password
 
 WiFiClient  client;
 
 AsyncWebServer server(80);
 
 unsigned long myChannelNumber = 1683811;
-const char * myWriteAPIKey = "3JF2RAQ2T7ZYLH6N";
-const char * myReadAPIKey = "RRIA1L2JRSG0KSWJ";
+const char * myWriteAPIKey = "***********";
+const char * myReadAPIKey = "***********";
 
 String serverName = "https://api.thingspeak.com/channels/1683811/feeds.json?api_key=RRIA1L2JRSG0KSWJ&results=1";
 
